@@ -1,0 +1,100 @@
+*{
+	box-sizing: border-box;
+	margin: 0px;
+	padding: 0px;
+}
+h1{
+	text-align: center;
+	margin: 25px 0px 30px 0px;
+	font-family: sans-serif;
+}
+
+div div{
+	background-color: #898989; /* Grey*/
+	border: 2px solid black;
+	width: 30.33%; 
+	float: left;
+	padding: 0px 0px 5px 5px;
+	margin: 1.5%;
+}
+	
+#heading1{
+	background-color: #d49899; /*pink*/
+	width: 100px;
+	height: 40px;
+	text-align: center;
+	font-weight: bold;
+	font-size: 19px;
+	float:right;
+	padding: 8px;
+	font-family: sans-serif;
+	border-left: 2px solid black;
+	border-bottom: 2px solid black;
+}
+
+#heading2{
+    background-color: #c14544; /*red*/
+	width: 100px;
+	height: 40px;
+	text-align: center;
+	font-weight: bold;
+	font-size: 19px;
+	float:right;
+	padding: 8px;
+	font-family: sans-serif;
+	border-left: 2px solid black;
+	border-bottom: 2px solid black;
+}
+
+#heading3{
+    background-color: #e5d197; /*yellow*/
+	width: 100px;
+	height: 40px;
+	text-align: center;
+	font-weight: bold;
+	font-size: 19px;
+	float:right;
+	padding: 8px;
+	font-family: sans-serif;
+	border-left: 2px solid black; 
+	border-bottom: 2px solid black;
+}
+
+section{
+	clear:right;
+	font-size: 14px;
+	font-family: sans-serif;
+}
+
+/*----------------Large Devices----------------------*/
+@media(min-width: 992px){
+	div div{
+		width: 30.33%;
+		margin: 1.5%;
+
+	}
+}
+
+/*---------------Tab Devices-------------------------*/
+@media(min-width: 768px) and (max-width: 991px){
+	div div{
+		width: 47%;
+		margin: 1.5%;
+	}
+	div #b3{
+		width: 97%;
+		margin: 1.5%;
+	}
+}
+
+/*---------------Mob Devices-------------------------*/
+
+@media(max-width: 767px){
+	h1{
+		margin: 25px 0px 25px 0px; 
+	}
+	div div{
+		width: 96%;
+		margin: 2%;
+	}
+}
